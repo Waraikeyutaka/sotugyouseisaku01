@@ -1,0 +1,14 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "strict": true,
+    "types": ["node"]  // 👈 ここにカンマを忘れないように追加！
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo-types/**/*.d.ts",
+    "global.d.ts"
+  ]
+}
